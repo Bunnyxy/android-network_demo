@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.mpi.network.Activity.MainActivity">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="查看天气"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/jumpToWeather"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        />
+
+     <Button
+         android:layout_width="150dp"
+         android:layout_height="wrap_content"
+         android:text="webview"
+         android:background="@drawable/button_sec"
+         android:layout_gravity="center"
+         android:layout_marginTop="25dp"
+         android:id="@+id/jumpToWebview"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:textColor="#fff"
+        />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="http"
+            android:background="@drawable/button_sec"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/jumpToHttp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="xml"
+            android:background="@drawable/button_sec"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/jumpToXML"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="json"
+            android:background="@drawable/button_sec"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/jumpToJson"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textColor="#fff"
+            />
+</LinearLayout>
